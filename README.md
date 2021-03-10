@@ -39,9 +39,9 @@
  other_pointer: ptr.Pointer = ptr.Pointer(other)
 
  are_addresses_equal: bool = num_pointer.eqeq(other_pointer)
- are_addresses_equal: bool = num_pointer.ne(other_pointer)
- are_addresses_equal: bool = num_pointer.gt(other_pointer)
- are_addresses_equal: bool = num_pointer.lt(other_pointer)
- are_addresses_equal: bool = num_pointer.lte(other_pointer)
- are_addresses_equal: bool = num_pointer.gte(other_pointer)
+ are_addresses_not_equal: bool = num_pointer.ne(other_pointer)
+ are_addresses_greater: bool = num_pointer.gt(other_pointer)
+ are_addresses_less: bool = num_pointer.lt(other_pointer)
+ are_addresses_less_or_equal: bool = num_pointer.lte(other_pointer)
+ are_addresses_greater_or_equal: bool = num_pointer.gte(other_pointer)
  ```
