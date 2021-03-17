@@ -45,3 +45,16 @@
  are_addresses_less_or_equal: bool = num_pointer.lte(other_pointer)
  are_addresses_greater_or_equal: bool = num_pointer.gte(other_pointer)
  ```
+ 
+ ## Credits
+ Made by these members of the code roller team =D
+ 
+<table>
+	<tr>
+		<td>
+			<a href="https://github.com/code-roller/pyPtr/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=code-roller/pyPtr" />
+</a>
+		</td>
+	</tr>
+</table>
